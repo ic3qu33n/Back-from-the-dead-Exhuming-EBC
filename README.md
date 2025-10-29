@@ -6,7 +6,7 @@ This repo contains the slidedeck and PoCs presented at REcon 2025 for my talk "B
 
  
 ## REcon2025 slidedeck          
-### REcon2025 talk slidededeck is in the [REcon2024-slides-GOP-Complex](REcon2024-slides-GOP-Complex/) folder.            
+### REcon2025 talk slidededeck is in the [REcon2025-slides-ExhumingEBC](REcon2025-slides-ExhumingEBC/) folder.            
  
 
 ## REcon2025 talk recording         
@@ -18,7 +18,7 @@ This repo contains the slidedeck and PoCs presented at REcon 2025 for my talk "B
 The link for the POC will be added here when I make it public.
 
 ---         
-# Talk description:
+# Talk abstract:
 A spectre is haunting UEFI -- the spectre of EBC.
 All the powers of old platform firmware landscapes have entered into a holy alliance to exorcise this spectre: lack of open-source (or any) compiler targeted for EBC, exceptional rarity of in-the-wild EBC binary samples, lack of any working/maintained debugging tools for EBC binaries, sparse and outdated documentation.
 
@@ -41,6 +41,7 @@ This talk is the story of the long and arduous UEFI EBC xdev process, and presen
 
 Applicable to seasoned UEFI reverse engineers/exploit developers, and those interested in topics such as: reverse engineering binaries for an archaic/undocumented ISA, exploit development techniques relevant to VM/sandbox escapes, and much more.
 
+## Talk description:  
 This talk is the story of how I resurrected a nearly dead ISA in the UEFI spec, painstakingly wrote and debugged PoCs in EFI Byte Code, and cracked the secrets to developing platform-independent UEFI exploits with EBC.
 
 EBC, or EFI Byte Code, is a platform agnostic intermediary language that leverages natural-indexing to automatically adjust its instruction width to either 32-bit or 64-bit dependent on the architecture of the host machine. It was designed as a specification for writing platform/architecture-agnostic PCI Option ROMs for UEFI firmware, with one of the goals being that IBV/OEMs could use EBC as a one-stop-shop for their PCI OpRom implementations.
